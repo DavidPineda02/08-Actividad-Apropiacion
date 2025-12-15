@@ -3,8 +3,8 @@
 // Escribe un código que imprima “Inicio”, luego una operación con setTimeout que tarde 2 segundos y finalmente “Fin”.
 // Meta: que reconozcan el orden real de ejecución.
 
-console.log("Inicio");
+console.log("INICIO");
 
 setTimeout(() => {
-    console.log("Fin");
+    console.log("FIN");
 }, 2000);
